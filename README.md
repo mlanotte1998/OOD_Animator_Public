@@ -8,4 +8,7 @@ Due to the the instructors not wanting the code from the project to be public so
 
 In a terminal, move to the directory that contains the jar file and the given text files. Then type in:
 
-'''java -jar OOD-Easy-Animator.jar -in textfile.txt -view aview -out output -speed number''' 
+```
+java -jar OOD-Easy-Animator.jar -in textfile.txt -view aview -out output -speed number
+``` 
+
