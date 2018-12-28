@@ -12,3 +12,13 @@ In a terminal, move to the directory that contains the jar file and the given te
 java -jar OOD-EasyAnimator.jar -in textfile.txt -view aview -out output -speed number
 ``` 
 
+The order of the -in, -view, -out, and -speed does not matter. Also, -speed is not required, and -out can only be used for the views of type "text" and type "SVG". 
+
+# What Goes After the "-in"
+
+  The argument that goes after -in is the text file that will be used in the animator for every type of view and is required for every view. An example of this input is all of the .txt files given in this repository, so an example of the input would be "-in buildings.txt"
+  
+  The text files given all follow a similar pattern that can be followed to make more text file animations. The pattern is bulleted below:
+   
+   * Declare the canvas with "canvas minX minY maxX maxY" where the four numbers after the word canvas are all integers. 
+   * 
