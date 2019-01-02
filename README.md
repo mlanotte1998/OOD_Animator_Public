@@ -36,3 +36,11 @@ The order of the -in, -view, -out, and -speed does not matter. Also, -speed is n
   * Edit : The edit view is similar to the visual view but includes extra options to edit the animation, pause it, restart it, save it, etc. A more detailed description of all the options included in the edit view can be found later in the ReadMe. 
   
 ### What Goes After the -out
+
+  The -out option is only to be used with a Text View or SVG view. The name of the file can be one that does or does not already exist. For the text view, a .txt file should be used, and for the SVG view a .svg file should be used. 
+  
+### What Goes After the -speed
+
+  This option is the simply the speed of the animation. It can be included for all views except the text view. For every other view, if no speed is given, then each time in the text input file will equate that number of seconds. Inputting a speed of 2 will double the speed, 5 will mulitply the speed by 5, etc. Only integers can be included so a speed less than the original is not possible. 
+  
+## Edit View Explained 
