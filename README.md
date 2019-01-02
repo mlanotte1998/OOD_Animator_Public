@@ -4,7 +4,7 @@ This repository has all of the information to use the end result of the "Easy An
 
 Due to the the instructors not wanting the code from the project to be public so they can continue using this project in the class, the code itself is not in this public repository. Instead, the jar file for the working project is here along with sample text files and the below instructions so that the animator can be used. 
 
-### How to Use the Jar File 
+## How to Use the Jar File 
 
 In a terminal, move to the directory that contains the jar file and the given text files. Then type in:
 
@@ -14,7 +14,7 @@ java -jar OOD-EasyAnimator.jar -in textfile.txt -view aview -out output -speed n
 
 The order of the -in, -view, -out, and -speed does not matter. Also, -speed is not required, and -out can only be used for the views of type "text" and type "SVG". 
 
-# What Goes After the "-in"
+### What Goes After the "-in"
 
   The argument that goes after -in is the text file that will be used in the animator for every type of view and is required for every view. An example of this input is all of the .txt files given in this repository, so an example of the input would be "-in buildings.txt"
   
@@ -26,7 +26,7 @@ The order of the -in, -view, -out, and -speed does not matter. Also, -speed is n
    * Motions and shape declarations can alternate in any way as long as motions for a shape happen after the shape has been declared. 
    * Shapes will show up above another shape if they overlap during the animation if they were declared after the other shape. 
    
-# What Goes After the "-view" 
+### What Goes After the "-view" 
 
   There are only four options for the view input and one of them is required. The view is the way that the animation will be shown. Depending on which view is picked the -out field may be used. The four options are bulleted below: 
   
@@ -35,4 +35,4 @@ The order of the -in, -view, -out, and -speed does not matter. Also, -speed is n
   * Visual : The visual view opens up a java window to play the animation and repeat it. The window can be closed to make the animation stop. This view should not have a -out option. A -speed input can be included to set the number of ticks per second. The default speed is 1. 
   * Edit : The edit view is similar to the visual view but includes extra options to edit the animation, pause it, restart it, save it, etc. A more detailed description of all the options included in the edit view can be found later in the ReadMe. 
   
-# What Goes After the -out
+### What Goes After the -out
