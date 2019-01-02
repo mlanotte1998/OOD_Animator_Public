@@ -30,10 +30,10 @@ The order of the -in, -view, -out, and -speed does not matter. Also, -speed is n
 
   There are only four options for the view input and one of them is required. The view is the way that the animation will be shown. Depending on which view is picked the -out field may be used. The four options are bulleted below: 
   
-  * Text : The text view displays the motions of each shape in order of the shapes that has a similar format of the motions are the input files. Text view descriptions if not given an output text file name will be written to the command line. If you want the description saved to a text file then include an name of a .txt file after the -out option. 
+  * text : The text view displays the motions of each shape in order of the shapes that has a similar format of the motions are the input files. Text view descriptions if not given an output text file name will be written to the command line. If you want the description saved to a text file then include an name of a .txt file after the -out option. 
   * SVG : The SVG view outputs the animation in a text form that allows the animation to be played in a browser. If an ouput file is given then it will write the description to the file, otherwise it will be printed in the command line. If the description is in a .svg file then it can opened in a browser and the animation will play. If an output file is given it must be of the form .svg. A -speed input can be included and will alter the the description accordingly. The default speed is 1. 
-  * Visual : The visual view opens up a java window to play the animation and repeat it. The window can be closed to make the animation stop. This view should not have a -out option. A -speed input can be included to set the number of ticks per second. The default speed is 1. 
-  * Edit : The edit view is similar to the visual view but includes extra options to edit the animation, pause it, restart it, save it, etc. A more detailed description of all the options included in the edit view can be found later in the ReadMe. 
+  * visual : The visual view opens up a java window to play the animation and repeat it. The window can be closed to make the animation stop. This view should not have a -out option. A -speed input can be included to set the number of ticks per second. The default speed is 1. 
+  * edit : The edit view is similar to the visual view but includes extra options to edit the animation, pause it, restart it, save it, etc. A more detailed description of all the options included in the edit view can be found later in the ReadMe. 
   
 ### What Goes After the -out
 
